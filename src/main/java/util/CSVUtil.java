@@ -42,7 +42,7 @@ public class CSVUtil {
         GPDAO gpdao = new GPDAO();
         gpdao.setCode(args[0]);
         gpdao.setName(args[1]);
-        maps.put();
+        maps.put(gpdao.getCode(),gpdao);
     }
 	public static void main(String[] args) {
 		initMap();
