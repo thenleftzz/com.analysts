@@ -12,6 +12,8 @@ public class GPDAO {
     String close;
     String zt;
     String dt;
+    boolean openZT;
+    boolean hasZT;
 
     public String getCode() {
         return code;
@@ -75,5 +77,21 @@ public class GPDAO {
 
     public void setDt(String dt) {
         this.dt = dt;
+    }
+
+    public boolean isOpenZT() {
+        return openZT;
+    }
+
+    public void setOpenZT(boolean openZT) {
+        this.openZT = openZT;
+    }
+
+    public boolean isHasZT() {
+        return hasZT;
+    }
+
+    public void setHasZT(boolean hasZT) {
+        this.hasZT = hasZT;
     }
 }
