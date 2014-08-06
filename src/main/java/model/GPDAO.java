@@ -1,4 +1,4 @@
-package model.dao;
+package model;
 
 /**
  * Created by then on 2014/8/5.
@@ -14,6 +14,7 @@ public class GPDAO {
     String dt;
     boolean openZT;
     boolean hasZT;
+    String firstOpenTime;
 
     public String getCode() {
         return code;
@@ -93,5 +94,13 @@ public class GPDAO {
 
     public void setHasZT(boolean hasZT) {
         this.hasZT = hasZT;
+    }
+
+    public String getFirstOpenTime() {
+        return firstOpenTime;
+    }
+
+    public void setFirstOpenTime(String firstOpenTime) {
+        this.firstOpenTime = firstOpenTime;
     }
 }
